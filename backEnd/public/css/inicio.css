@@ -1,0 +1,39 @@
+#entrada
+{
+    color:red
+}
+h3
+{
+    color:cadetblue;
+}
+
+#contenedor
+{
+    background-color: coral;
+}
+
+h1
+{
+    color:teal;
+    text-align: center; 
+    background-color: black;
+}
+
+.pic
+{
+	display: block;
+	margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+#error
+{
+    background-color: black;
+    color:blanchedalmond;
+}
+
+.letra
+{
+    font-size: 4em 
+}

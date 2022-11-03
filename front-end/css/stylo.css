@@ -1,0 +1,28 @@
+
+#boton
+        {
+            width: 200px;
+            height: 50px;
+            background-color: chocolate;
+            text-align: center;
+            padding: 2%;
+            margin: 0 auto;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px gray;
+            cursor: pointer;
+        }
+#boton1
+        {
+            width: 200px;
+            height: 50px;
+            background-color: chocolate;
+            text-align: center;
+            padding: 2%;
+            margin: 0 auto;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px gray;
+            cursor: pointer;
+        }
+

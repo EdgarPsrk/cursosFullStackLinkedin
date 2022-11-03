@@ -1,0 +1,15 @@
+html(lang = 'es')
+
+head 
+    title Tienda 
+    link(rel="stylesheet", type= 'text/css', href="/css/inicio.css")
+
+
+body 
+    h1 Bienvenido 
+    a(href = 'http://localhost:3000') comprar camiseta color #{color}
+
+    div 
+        h3 Vista previa 
+        img.pic(src = '/' + data.imagen, alt = 'camiseta ' + data.color)
+        

@@ -1,0 +1,18 @@
+html(lang = 'es')
+
+head 
+    title Tienda 
+    link(rel="stylesheet", type= 'text/css', href="css/inicio.css")
+
+
+body 
+    h1 Bienvenido 
+    a(href = 'http://www.platzi.com') otro enlace util
+    br
+    each camiseta in camisetas
+        div
+            h3 camiseta #{camiseta.color}
+            img.pic(src = camiseta.imagen, alt = 'camisetas' )
+            a(href = 'tienda/comprar/' + camiseta.color) comprar
+
+    a(href = 'http://localhost:3000') volvamos
